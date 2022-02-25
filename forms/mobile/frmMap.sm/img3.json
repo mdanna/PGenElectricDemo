@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "220dp"
+        "value": "190dp"
     },
     "_margin_": [
         0,
@@ -26,7 +26,7 @@
     "_src_": "img3.png",
     "_top_": {
         "type": "string",
-        "value": "84dp"
+        "value": "87dp"
     },
     "_width_": {
         "type": "ref",

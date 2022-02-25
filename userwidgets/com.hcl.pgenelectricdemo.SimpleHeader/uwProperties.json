@@ -50,7 +50,7 @@
                         "category": "look",
                         "dependencyConditions": {},
                         "dependentKeysKUIDs": null,
-                        "displayName": "icom",
+                        "displayName": "icon",
                         "isHiddenInTool": false,
                         "srcWidget": "lblIcon",
                         "type": "string",

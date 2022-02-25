@@ -1,17 +1,21 @@
 define({ 
   onViewCreated(){
     this.view.init = () => {
-      this.view.cmpSimpleHeader.onClickLeft = () => {
-        this.openMenu();
-      };
+      this.view.cmpSimpleHeader.onClickLeft = () => this.openMenu();
 
-      this.view.flxCloseMenu.onClick = () => {
-        this.closeMenu();
-      };
+      this.view.flxCloseMenu.onClick = () => this.closeMenu();
 
-      this.view.flxGrey.onClick = () => {
-        this.closeMenu();
-      };
+      this.view.flxGrey.onClick = () => this.closeMenu();
+      
+      for(let i = 1; i <= 9; i++){
+        this.view['img' + i].onTouchEnd = () => {
+          new voltmx.mvc.Navigation('frmChargingStation').navigate();
+        };
+      }
+      
+      this.view.lblFind.onTouchEnd = () => this.closeMenu();
+      
+      this.view.lblLogout.onTouchEnd = () => new voltmx.mvc.Navigation('frmLogin').navigate();
     };
   },
 
