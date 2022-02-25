@@ -2,12 +2,12 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "10dp"
+        "value": "0dp"
     },
     "_margin_": [
         1,
@@ -21,11 +21,15 @@
         0,
         0
     ],
-    "_skin_": "sf66ab20703b4ad0a5d590bec65f9785",
-    "_text_": "Remember Me",
+    "_skin_": "s22d643d534b463a8bd0504aec2d9d07",
+    "_text_": "d",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "100%"
     },
     "_wrapping_": 2,
     "android": {
@@ -35,13 +39,9 @@
         }
     },
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "lblRememberMe",
+    "contentalignment": 5,
+    "id": "lblCloseMenu",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "h79b30f034e749de92d6b12cb262b9aa",
+    "kuid": "c068929a7bd74c628a99a658887919f1",
     "name": "kony.ui.Label",
-    "parent": "flxRememberMe",
-    "pf": "frmLogin",
+    "parent": "flxCloseMenu",
+    "pf": "frmMap",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},
