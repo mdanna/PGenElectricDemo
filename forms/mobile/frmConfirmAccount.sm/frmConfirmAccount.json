@@ -31,20 +31,21 @@
     "canUpdateUI": true,
     "children": [
         "flxBack",
-        "lblFindAccountTitle",
-        "lblFindAccountText",
+        "lblConfirmAccountTitle",
+        "lblConfimAccountText",
         "flxAccountNumber",
-        "lblOr",
         "flxAddress",
-        "flexAptCity",
-        "flexStateZip",
-        "btnFindAccount"
+        "flxCity",
+        "flxZipCode",
+        "flxPhoneNumber",
+        "lblConfimAccountConfirmationText",
+        "btnSendTextCode"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "frmFindAccountController"
+            "name": "frmConfirmAccountController"
         }
     },
     "currentLocale": "default",
@@ -54,7 +55,7 @@
     "device": "iPhone7",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "frmFindAccount",
+    "id": "frmConfirmAccount",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -72,7 +73,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "i7e22e02f4834561849940bb6e2d1c60",
+                "kuid": "j5984ebb2da94cd9b28b1cb5835c5a04",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -83,7 +84,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "c72d42cd56964432b5e7cfc6794cd355",
+                        "kuid": "hf522f035c6748e38445df21609011c0",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -100,13 +101,13 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "a41b8b4e8db545479bfee9080f236a98",
+    "kuid": "ad1287dc57f445d8a6c532a7a9080664",
     "layouttype": 4,
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "iphone",
-    "prevDevice": "iPhone11",
+    "prevDevice": "iPhone11ProMax",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

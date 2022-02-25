@@ -22,7 +22,7 @@
         0
     ],
     "_skin_": "s75d38934ca74897bc99c5b4270ed150",
-    "_text_": "Consolidate your home energy bill with your electric vehicle charging bills with the Portland General Electric - Electric Vehicle charging App. One you add your vehicles to your PGE account, all of your vehicle electric charges (whether at home or charging stations) will show on your PGE bill. Say \"goodbye\" to managing multiple bills!",
+    "_text_": "Good news! We found an account. Please confirm the information below is the account you wish to connect to.",
     "_top_": {
         "type": "string",
         "value": "4%"
@@ -40,8 +40,8 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 2,
-    "id": "lblSaveTimeAndMoney",
+    "contentalignment": 5,
+    "id": "lblConfimAccountText",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,11 +55,11 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e6710099c8f04f5b96b874ed6d0d0b6b",
+    "kuid": "d6102756cd984a80815cb4be9d194a94",
     "maxnumberoflines": 0,
     "name": "kony.ui.Label",
-    "parent": "frmSaveTimeAndMoney",
-    "pf": "frmSaveTimeAndMoney",
+    "parent": "frmConfirmAccount",
+    "pf": "frmConfirmAccount",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

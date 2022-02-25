@@ -1,10 +1,8 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
-    "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "40%"
     },
     "_left_": {
         "type": "string",
@@ -16,14 +14,15 @@
         0,
         0
     ],
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_skin_": "s7c311c240fa4302bde58b236e0be055",
-    "_src_": "onboarding_graphic1.png",
+    "_percent_": true,
+    "_skin_": "sebcde3f871a4a6392c654d330046f55",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -32,22 +31,31 @@
         "type": "string",
         "value": "100%"
     },
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
+    "children": [
+        "imgVehicleAdded",
+        "flxBack"
+    ],
+    "clipbounds": true,
     "containerweight": 100,
-    "id": "imgSaveTimeAndMoney",
-    "imagescalemode": 1,
+    "enablescrolling": true,
+    "id": "flxVehicleAdded",
     "info": null,
-    "invokedProperty": "src",
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e018256116124a5db8a21affcb95d043",
-    "name": "kony.ui.Image2",
-    "parent": "flxImageSaveTimeAndMoney",
-    "pf": "frmSaveTimeAndMoney",
+    "kuid": "e40c147273ab4cd1ad2d7a1e0109e60c",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "frmVehicleAdded",
+    "pf": "frmVehicleAdded",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "srcType": 1,
-    "wType": "Image",
-    "widgetalignment": 5,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
     "zindex": 1
 }

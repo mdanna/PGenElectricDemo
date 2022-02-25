@@ -31,30 +31,28 @@
     "canUpdateUI": true,
     "children": [
         "flxBack",
-        "lblFindAccountTitle",
-        "lblFindAccountText",
-        "flxAccountNumber",
-        "lblOr",
-        "flxAddress",
-        "flexAptCity",
-        "flexStateZip",
+        "lblCreateUserTitle",
+        "lblCreateUser",
+        "flxUsername",
+        "flxPassword",
+        "flxConfirmPassword",
         "btnFindAccount"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "frmFindAccountController"
+            "name": "frmCreateUserController"
         }
     },
     "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone7",
+    "device": "iPhone11",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "frmFindAccount",
+    "id": "frmCreateUser",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -72,7 +70,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "i7e22e02f4834561849940bb6e2d1c60",
+                "kuid": "g49511158db94fbcab99a56a4f67b6b0",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -83,7 +81,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "c72d42cd56964432b5e7cfc6794cd355",
+                        "kuid": "de4939b64eed42ff84d440d4dac3b6e9",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -100,7 +98,7 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "a41b8b4e8db545479bfee9080f236a98",
+    "kuid": "a0011a67c15f4632ae2749b488842ffb",
     "layouttype": 4,
     "name": "kony.ui.Form2",
     "needappmenu": false,

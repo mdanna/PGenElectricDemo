@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "5%"
     },
     "_margin_": [
         0,
@@ -23,27 +23,28 @@
         0
     ],
     "_skin_": "s7c311c240fa4302bde58b236e0be055",
-    "_src_": "onboarding_graphic1.png",
+    "_src_": "barcodescanicon.png",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "30dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "id": "imgSaveTimeAndMoney",
+    "id": "imgBarcodeIcon",
     "imagescalemode": 1,
     "info": null,
     "invokedProperty": "src",
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e018256116124a5db8a21affcb95d043",
+    "kuid": "g5b3e984398146a693f0c7fb86715ac6",
     "name": "kony.ui.Image2",
-    "parent": "flxImageSaveTimeAndMoney",
-    "pf": "frmSaveTimeAndMoney",
+    "paddinginpixel": false,
+    "parent": "FlexContainer0f40de8d8fc174a",
+    "pf": "frmAddVehicle",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "srcType": 1,

@@ -22,7 +22,7 @@
         0
     ],
     "_skin_": "s75d38934ca74897bc99c5b4270ed150",
-    "_text_": "Consolidate your home energy bill with your electric vehicle charging bills with the Portland General Electric - Electric Vehicle charging App. One you add your vehicles to your PGE account, all of your vehicle electric charges (whether at home or charging stations) will show on your PGE bill. Say \"goodbye\" to managing multiple bills!",
+    "_text_": "We have added your 2020 Tesla Model S to your account. Now you can charge your vehicle anywhere and never have to worry about various bills. We will consolidate all of your charging bills into your monthly PGE energy bill.",
     "_top_": {
         "type": "string",
         "value": "4%"
@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 2,
-    "id": "lblSaveTimeAndMoney",
+    "id": "lblVehicleAdded",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,11 +55,11 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e6710099c8f04f5b96b874ed6d0d0b6b",
+    "kuid": "ibaee49a026d4783a0d3c10765cae540",
     "maxnumberoflines": 0,
     "name": "kony.ui.Label",
-    "parent": "frmSaveTimeAndMoney",
-    "pf": "frmSaveTimeAndMoney",
+    "parent": "frmVehicleAdded",
+    "pf": "frmVehicleAdded",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

@@ -30,31 +30,27 @@
     },
     "canUpdateUI": true,
     "children": [
-        "flxBack",
-        "lblFindAccountTitle",
-        "lblFindAccountText",
-        "flxAccountNumber",
-        "lblOr",
-        "flxAddress",
-        "flexAptCity",
-        "flexStateZip",
-        "btnFindAccount"
+        "flxVehicleAdded",
+        "lblVehicleAddedTitle",
+        "lblVehicleAdded",
+        "btnDiveIntoApp",
+        "btnAddAnotherVehicle"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "frmFindAccountController"
+            "name": "frmVehicleAddedController"
         }
     },
     "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone7",
+    "device": "iPhone11",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "frmFindAccount",
+    "id": "frmVehicleAdded",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -72,7 +68,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "i7e22e02f4834561849940bb6e2d1c60",
+                "kuid": "d67a3e0f0ade4ab6a396bc1399b8c6c9",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -83,7 +79,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "c72d42cd56964432b5e7cfc6794cd355",
+                        "kuid": "gd2de0c3052f4242a53a460e66d95324",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -100,7 +96,7 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "a41b8b4e8db545479bfee9080f236a98",
+    "kuid": "ea17cbe2a3a04207b792937e6bf2af45",
     "layouttype": 4,
     "name": "kony.ui.Form2",
     "needappmenu": false,
