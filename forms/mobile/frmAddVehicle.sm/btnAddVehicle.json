@@ -22,10 +22,10 @@
         0
     ],
     "_skin_": "s079625ca9aa4ca6a2e53ebb873ad81c",
-    "_text_": "Find Account",
+    "_text_": "Add Vehicle",
     "_top_": {
         "type": "string",
-        "value": "2%"
+        "value": "1%"
     },
     "_width_": {
         "type": "string",
@@ -40,14 +40,14 @@
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "sc1c93ac4a5a4d5ab4eda34ee4099668",
-    "id": "btnFindAccount",
+    "id": "btnAddVehicle",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "fbc702ddea8144fcab6a845e48ed826b",
+    "kuid": "b219add1a6af460c865f95008dca5fea",
     "name": "kony.ui.Button",
-    "parent": "frmCreateUser",
-    "pf": "frmCreateUser",
+    "parent": "frmAddVehicle",
+    "pf": "frmAddVehicle",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",

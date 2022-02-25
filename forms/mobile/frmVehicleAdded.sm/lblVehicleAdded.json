@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "10%"
+        "value": "10.04%"
     },
     "_margin_": [
         1,
@@ -25,7 +25,7 @@
     "_text_": "We have added your 2020 Tesla Model S to your account. Now you can charge your vehicle anywhere and never have to worry about various bills. We will consolidate all of your charging bills into your monthly PGE energy bill.",
     "_top_": {
         "type": "string",
-        "value": "4%"
+        "value": "4.00%"
     },
     "_width_": {
         "type": "string",
