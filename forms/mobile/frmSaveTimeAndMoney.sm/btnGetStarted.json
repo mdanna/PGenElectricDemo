@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s079625ca9aa4ca6a2e53ebb873ad81c",
+    "_text_": "Get Started",
+    "_top_": {
+        "type": "string",
+        "value": "8.00%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sc1c93ac4a5a4d5ab4eda34ee4099668",
+    "id": "btnGetStarted",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "df3ee444795545e8864a2077f45beab2",
+    "name": "kony.ui.Button",
+    "parent": "frmSaveTimeAndMoney",
+    "pf": "frmSaveTimeAndMoney",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}
