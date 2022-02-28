@@ -12,7 +12,7 @@ define({
         
       };
       
-      this.view.onPreShow = () => {
+      this.view.preShow = () => {
         var userAccount = voltmx.store.getItem("UserAccount");
         this.view.lblAccountNumberValue.text = userAccount.accountId;
         this.view.lblAddressValue.text = (userAccount.aptNum + " " + userAccount.address).trim();

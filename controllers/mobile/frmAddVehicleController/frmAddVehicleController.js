@@ -17,20 +17,30 @@ define({
         };
         
       };
+      
+      this.view.preShow = () => {
+        this.view.txtLicensePlateNumber.text = "";
+        this.view.txtMake.text = "";
+        this.view.txtModel.text = "";
+        this.view.txtYear.text = "";
+      };
     },
   
     generateUserObject: function () {
       var newVehicle = {
-        "LicensePlate":this.view.txtLicensePlateNumber.text,
-        "make": this.view.txtMake.text,
-        "model": this.view.txtModel.text,
-        "year": this.view.txtYear.text,
+        "LicensePlate":this.view.txtLicensePlateNumber.text.trim(),
+        "make": this.view.txtMake.text.trim(),
+        "model": this.view.txtModel.text.trim(),
+        "year": this.view.txtYear.text.trim(),
         "status": this.view.lstStatus.selectedKey
       };
       
-      var vehicles = [];
+      var vehicles;
       voltmx.store.setItem("newVehicles", newVehicle);
       vehicles = voltmx.store.getItem("vehicles");
+      if(!vehicles) {
+        vehicles = [];
+      }
       vehicles.push(newVehicle);
       voltmx.store.setItem("vehicles", vehicles);
     }

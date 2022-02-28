@@ -16,11 +16,17 @@ define({
             return callAlert("Passwords do not match!");
           }
           
-          this.generateUserObject(this.view.txtUsername.text, this.view.txtPassword.text);
+          this.updateUserObject(this.view.txtUsername.text, this.view.txtPassword.text);
           
           new voltmx.mvc.Navigation("frmConfirmAccount").navigate();
         };
         
+      };
+      
+      this.view.preShow = () => {
+        this.view.txtUsername.text = "";
+        this.view.txtPassword.text = "";
+        this.view.txtConfirmPassword.text = "";
       };
     },
   

@@ -48,7 +48,7 @@
     "isvisible": false,
     "keyboardtype": "A",
     "kuid": "c1d608068d034f62965ddc809e17ea81",
-    "maxtextlength": 20,
+    "maxtextlength": "",
     "mode": "A",
     "name": "kony.ui.TextBox2",
     "paddinginpixel": false,

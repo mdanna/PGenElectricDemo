@@ -15,6 +15,11 @@ define({
         };
         
       };
+      
+      
+      this.view.preShow = () => {
+        this.view.txtAuthorisationNumber.text = "";
+      };
     },
 
  });

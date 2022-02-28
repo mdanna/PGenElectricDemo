@@ -19,6 +19,15 @@ define({
         };
         
       };
+      
+      this.view.preShow = () => {
+        this.view.txtAccountNumber.text = "";
+        this.view.txtAddress.text = "";
+        this.view.txtApartmentNumber.text = "";
+        this.view.txtCity.text = "";
+        this.view.txtState.text = "";
+        this.view.txtZip.text = "";
+      };
     },
   
     generateUserObject: function () {
