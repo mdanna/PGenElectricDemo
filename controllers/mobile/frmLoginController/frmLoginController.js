@@ -14,6 +14,11 @@ define({
           new voltmx.mvc.Navigation("frmMap").navigate();
         };
       };
+      
+      this.view.preShow = () => {
+        this.view.txtEmail.text = '';
+        this.view.txtPassword.text = '';
+      };
     }
 
 });
