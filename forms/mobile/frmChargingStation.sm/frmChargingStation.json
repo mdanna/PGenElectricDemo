@@ -15,6 +15,11 @@
         0
     ],
     "_percent_": true,
+    "_pxMenuIndex": [
+        0,
+        1,
+        0
+    ],
     "_skin_": "s2e838ef4b6d4ec49f736e220e2573d9",
     "_title_": null,
     "addWidgetsdone": false,
@@ -28,10 +33,12 @@
     "androidwearos": {
         "needAppMenu": false
     },
+    "bounces": false,
     "canUpdateUI": true,
     "children": [
         "cmpSimpleHeader",
-        "cmpSimpleHeaderDivider"
+        "cmpSimpleHeaderDivider",
+        "flxContent"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -127,6 +134,7 @@
     "titleBarSkin": "s62de5d673e645fa9271cb345ab89cb5",
     "titlebar": true,
     "type": 3,
+    "verticalscrollindicator": false,
     "wType": "Form",
     "windows8": {
         "needAppMenu": false
