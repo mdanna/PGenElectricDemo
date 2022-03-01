@@ -25,7 +25,7 @@
     "_text_": "Find Account",
     "_top_": {
         "type": "string",
-        "value": "2%"
+        "value": "2.00%"
     },
     "_width_": {
         "type": "string",
@@ -34,12 +34,12 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "50.00%"
     },
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "sc1c93ac4a5a4d5ab4eda34ee4099668",
+    "focusskin": "s079625ca9aa4ca6a2e53ebb873ad81c",
     "id": "btnFindAccount",
     "info": null,
     "iscustomlayout": false,
