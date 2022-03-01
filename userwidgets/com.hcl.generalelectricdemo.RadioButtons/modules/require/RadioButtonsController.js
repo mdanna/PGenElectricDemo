@@ -6,9 +6,9 @@ define(function() {
   const SKN_LBL_UNSELECTED = 'sknRegularGreen110';
 
   return {
-    constructor: function(baseConfig, layoutConfig, pspConfig) {},
-    
-    initGettersSetters: function() {
+    constructor(baseConfig, layoutConfig, pspConfig) {},
+
+    initGettersSetters() {
       defineGetter(this, 'buttonWidth', () => {
         return this._buttonWidth;
       });
@@ -59,6 +59,18 @@ define(function() {
         });
 
       });
+    },
+
+    getSelection() {
+      let ret = 1;
+      for(let i = 0; i < this.buttons.data.length; i++){
+        let lblButton = this.view['lblButton' + i];
+        if(lblButton.skin === SKN_LBL_SELECTED){
+          ret = lblButton.text;
+          break;
+        }
+      }
+      return ret;
     }
   };
 });

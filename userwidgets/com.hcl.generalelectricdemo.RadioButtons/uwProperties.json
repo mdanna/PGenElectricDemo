@@ -2,7 +2,20 @@
     "classname": "RadioButtons",
     "definitions": {
         "apis": {
-            "custom": [],
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c6cbb47acc6e41649c1481eb6a590ce7",
+                    "paramList": [],
+                    "propertyKey": "getSelection",
+                    "pw": {
+                        "displayName": "getSelection",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "bcd8d8117a16431994a58b6d15c9c2c8",
+                    "type": "event"
+                }
+            ],
             "passthrough": []
         },
         "events": {
@@ -10,7 +23,9 @@
             "passthrough": []
         },
         "groups": {
-            "apis": [],
+            "apis": [
+                "General"
+            ],
             "events": [],
             "properties": [],
             "widgets": []
