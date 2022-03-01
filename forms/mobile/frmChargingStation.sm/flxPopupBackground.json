@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "2dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "25dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -22,14 +22,14 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s0ea745ef1074bb798401228572c0d13",
+    "_skin_": "s23d6d0575ff4ac99d2c48cb85611acd",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "125dp"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -38,14 +38,14 @@
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxRow",
+    "id": "flxPopupBackground",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
-    "kuid": "af63cef67e854cd2ae1e104bc341e4d8",
+    "isvisible": false,
+    "kuid": "g96c191d2fa34caf95ecf2a47738fc6f",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxContent",
+    "parent": "frmChargingStation",
     "pf": "frmChargingStation",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

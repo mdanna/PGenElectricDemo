@@ -38,7 +38,9 @@
     "children": [
         "cmpSimpleHeader",
         "cmpSimpleHeaderDivider",
-        "flxContent"
+        "flxContent",
+        "flxPopupBackground",
+        "flxPopup"
     ],
     "containerweight": 100,
     "controllerInfo": {
