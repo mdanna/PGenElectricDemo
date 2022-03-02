@@ -8,8 +8,11 @@ define({
         
         this.view.btnConfirmCode.onClick = () => {
           if(this.view.txtAuthorisationNumber.text.length !== 6) {
-            return callAlert("Please enter your 6-Digit authorization code")
+            return callAlert("Please enter your 6-Digit authorization code");
           }
+          
+          var vehicles = [];          
+          voltmx.store.setItem("vehicles", vehicles);
           
           new voltmx.mvc.Navigation("frmAddVehicle").navigate();
         };

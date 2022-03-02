@@ -43,7 +43,7 @@
     "kuid": "ie9c1db8d38344e38ed82df7792aa095",
     "name": "kony.ui.Button",
     "paddinginpixel": false,
-    "parent": "FlexContainer0f40de8d8fc174a",
+    "parent": "FlexScan",
     "pf": "frmAddVehicle",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

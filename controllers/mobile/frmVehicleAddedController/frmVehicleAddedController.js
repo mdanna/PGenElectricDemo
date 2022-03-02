@@ -11,6 +11,11 @@ define({
           new voltmx.mvc.Navigation("frmMap").navigate();
         };
         
+        this.view.btnAddAnotherVehicle.onClick = () => {
+          voltmx.store.removeItem("newVehicles");
+          new voltmx.mvc.Navigation("frmAddVehicle").navigate();
+        };
+        
       };
       
       this.view.preShow = () => {
