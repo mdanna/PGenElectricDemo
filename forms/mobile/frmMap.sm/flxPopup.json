@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "180dp"
     },
     "_left_": {
         "type": "string",
-        "value": "-90%"
+        "value": "114dp"
     },
     "_margin_": [
         0,
@@ -22,38 +22,39 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sca41d569573400b9795d06852a7a9f6",
+    "_skin_": "s5b6a8b6e0b04a77bf9b6d2a04bbd386",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "286dp"
     },
     "_width_": {
         "type": "string",
-        "value": "90%"
+        "value": "80%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "flxHeader",
-        "lblFind",
-        "lblSaved",
-        "lblBilling",
-        "lblCharge",
-        "lblEnergy",
-        "lblManage",
-        "flxRow",
-        "lblUser",
-        "lblLogout"
+        "flxPopupHeader",
+        "lblReservationComplete",
+        "lblPortReserved"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxMenu",
+    "id": "flxPopup",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
-    "kuid": "d1719b71a85241edb058767ab678a89d",
+    "isvisible": false,
+    "kuid": "i1dd68636bbd4d438c45a762dfcb55ce",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
     "parent": "frmMap",

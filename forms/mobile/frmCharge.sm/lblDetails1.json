@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "111dp"
+        "value": "6.00%"
     },
     "_margin_": [
         1,
@@ -21,15 +21,15 @@
         0,
         0
     ],
-    "_skin_": "sf0227d385db48dfadd32d23867c89a1",
-    "_text_": "Log In",
+    "_skin_": "sc46dbf129164a6f8927a23f1a1d427e",
+    "_text_": "Located on level 2 of parking garage.",
     "_top_": {
         "type": "string",
-        "value": "7dp"
+        "value": "1%"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "78%"
     },
     "_wrapping_": 2,
     "android": {
@@ -39,17 +39,9 @@
         }
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
-    "contentalignment": 5,
-    "id": "lblLogIn",
+    "contentalignment": 4,
+    "id": "lblDetails1",
     "info": null,
     "ipad": {
         "psp": {
@@ -63,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ca71bf77eeab4dbaae0e3361a88cabc3",
+    "kuid": "bae5d5ecc17041a6b649d9cb7fe11e6e",
     "name": "kony.ui.Label",
-    "parent": "flxBtnLogin",
-    "pf": "frmLogin",
+    "parent": "flxContent",
+    "pf": "frmCharge",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "111dp"
+        "value": "6%"
     },
     "_margin_": [
         1,
@@ -21,15 +21,15 @@
         0,
         0
     ],
-    "_skin_": "sf0227d385db48dfadd32d23867c89a1",
-    "_text_": "Log In",
+    "_skin_": "s1d2400b51994ebf8f54713c823e8c48",
+    "_text_": "Reservation Incomplete",
     "_top_": {
         "type": "string",
-        "value": "7dp"
+        "value": "3%"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "78%"
     },
     "_wrapping_": 2,
     "android": {
@@ -43,13 +43,9 @@
         "type": "string",
         "value": "50%"
     },
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "lblLogIn",
+    "id": "lblReservationComplete",
     "info": null,
     "ipad": {
         "psp": {
@@ -63,10 +59,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ca71bf77eeab4dbaae0e3361a88cabc3",
+    "kuid": "c1f39ae5d0994dd794aa943f791d4ea8",
     "name": "kony.ui.Label",
-    "parent": "flxBtnLogin",
-    "pf": "frmLogin",
+    "parent": "flxPopup",
+    "pf": "frmMap",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

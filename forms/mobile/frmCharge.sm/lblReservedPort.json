@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "111dp"
+        "value": "25dp"
     },
     "_margin_": [
         1,
@@ -21,15 +21,15 @@
         0,
         0
     ],
-    "_skin_": "sf0227d385db48dfadd32d23867c89a1",
-    "_text_": "Log In",
+    "_skin_": "s1d2400b51994ebf8f54713c823e8c48",
+    "_text_": "Reserved Port",
     "_top_": {
         "type": "string",
-        "value": "7dp"
+        "value": "2%"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "78%"
     },
     "_wrapping_": 2,
     "android": {
@@ -39,17 +39,9 @@
         }
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
-    "contentalignment": 5,
-    "id": "lblLogIn",
+    "contentalignment": 4,
+    "id": "lblReservedPort",
     "info": null,
     "ipad": {
         "psp": {
@@ -63,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ca71bf77eeab4dbaae0e3361a88cabc3",
+    "kuid": "ee4fbe2a99584feeacdcdaac2d8d7e04",
     "name": "kony.ui.Label",
-    "parent": "flxBtnLogin",
-    "pf": "frmLogin",
+    "parent": "flxContent",
+    "pf": "frmCharge",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},
