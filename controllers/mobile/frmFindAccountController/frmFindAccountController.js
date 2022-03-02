@@ -3,7 +3,11 @@ define({
 	onViewCreated(){
       this.view.init = () => {
         this.view.flxBack.onClick = () => {
-          new voltmx.mvc.Navigation("frmSaveTimeAndMoney").navigate();
+          if(voltmx.store.getItem("callFromRegistration")) {
+            new voltmx.mvc.Navigation("frmSaveTimeAndMoney").navigate();
+          } else {
+            new voltmx.mvc.Navigation("frmManageVehicles").navigate();
+          }
         };
         
         this.view.btnFindAccount.onClick = () => {

@@ -43,7 +43,7 @@
     "kuid": "g5b3e984398146a693f0c7fb86715ac6",
     "name": "kony.ui.Image2",
     "paddinginpixel": false,
-    "parent": "FlexContainer0f40de8d8fc174a",
+    "parent": "FlexScan",
     "pf": "frmAddVehicle",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

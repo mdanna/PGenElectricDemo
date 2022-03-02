@@ -16,6 +16,8 @@ define({
       this.view.lblFind.onTouchEnd = () => this.closeMenu();
       
       this.view.lblLogout.onTouchEnd = () => new voltmx.mvc.Navigation('frmLogin').navigate();
+      
+      this.view.lblManage.onTouchEnd = () => new voltmx.mvc.Navigation('frmManageVehicles').navigate();
     };
   },
 
