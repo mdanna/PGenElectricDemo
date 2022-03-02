@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "2dp"
+        "value": "50%"
     },
     "_left_": {
         "type": "string",
-        "value": "25dp"
+        "value": "114dp"
     },
     "_margin_": [
         0,
@@ -22,30 +22,48 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s0ea745ef1074bb798401228572c0d13",
+    "_skin_": "s5b6a8b6e0b04a77bf9b6d2a04bbd386",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "286dp"
     },
     "_width_": {
         "type": "string",
-        "value": "125dp"
+        "value": "80%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [],
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "flxPopupHeader",
+        "flxIcon",
+        "lblReservationComplete",
+        "lblPortReserved",
+        "lblPopupAddress1",
+        "lblPopupAddress2",
+        "lblPopupAddress3",
+        "lblPopupAddress4",
+        "lblPopupDirections"
+    ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxRow",
+    "id": "flxPopup",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
-    "kuid": "af63cef67e854cd2ae1e104bc341e4d8",
-    "layouttype": 2,
+    "isvisible": false,
+    "kuid": "g31e5a2c2a834eeba376dc40208c9a49",
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxContent",
+    "parent": "frmChargingStation",
     "pf": "frmChargingStation",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
