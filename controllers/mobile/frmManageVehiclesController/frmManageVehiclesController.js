@@ -41,11 +41,14 @@ define({
             },
             "btnEdit": {
               "text": "Edit Vehicle"
+            },
+            "lblEditVehicle": {
+              "text": "Edit Vehicle"
             }
           });
         }
         var userAccount = voltmx.store.getItem("UserAccount");
-        this.view.lblAddVehicleText.text = "The vehicles shown here are actively connected to your PGE account #" + userAccount.accountId + ". If this is incorrect, "
+        this.view.lblAddVehicleText.text = "The vehicles shown here are actively connected to your PGE account #" + userAccount.accountId + ". If this is incorrect, ";
         this.view.segVehicles.setData(vehicleList);
       };
     },
