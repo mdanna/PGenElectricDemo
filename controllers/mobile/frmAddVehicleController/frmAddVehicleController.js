@@ -3,7 +3,7 @@ define({
 	onViewCreated(){
       this.view.init = () => {
         this.view.flxBack.onClick = () => {
-          new voltmx.mvc.Navigation("frmEnterCode").navigate();
+          new voltmx.mvc.Navigation(voltmx.application.getPreviousForm().id).navigate();
         };
         
         this.view.btnAddVehicle.onClick = () => {
@@ -23,6 +23,14 @@ define({
         this.view.txtMake.text = "";
         this.view.txtModel.text = "";
         this.view.txtYear.text = "";
+        
+        if(voltmx.store.getItem("callFromRegistration")) {
+          this.view.lblAddVehicleTitle.isVisible = true;
+          this.view.lblAddVehicleText.isVisible = true;
+        } else {
+          this.view.lblAddVehicleTitle.isVisible = false;
+          this.view.lblAddVehicleText.isVisible = false;
+        }
       };
     },
   
@@ -38,7 +46,7 @@ define({
       var vehicles;
       voltmx.store.setItem("newVehicles", newVehicle);
       vehicles = voltmx.store.getItem("vehicles");
-      if(!vehicles) {
+      if(!vehicles[0]) {
         vehicles = [];
       }
       vehicles.push(newVehicle);

@@ -15,6 +15,8 @@ define({
       
       this.view.lblFind.onTouchEnd = () => this.closeMenu();
       
+      this.view.lblManage.onTouchEnd = () => new voltmx.mvc.Navigation('frmManageVehicles').navigate();
+      
       this.view.lblLogout.onTouchEnd = () => {
         this.view.flxMenu.left = '-90%';
         this.view.flxGrey.isVisible = false;

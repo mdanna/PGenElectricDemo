@@ -1,0 +1,80 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "s669106f68af48218bb1b6cb198687a2",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "s0aa9bd18b8f4394a4ac65dc731811ea",
+    "groupcells": false,
+    "id": "lstStatus",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "af06043498c94987a2c41d65dedaf8a4",
+    "masterdata": [
+        [
+            "Own",
+            "Own"
+        ],
+        [
+            "Hire",
+            "Hire"
+        ],
+        [
+            "Access",
+            "Access to"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxStatus",
+    "pf": "frmChangeVehicle",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "Own",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "Own",
+        "Own"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}
