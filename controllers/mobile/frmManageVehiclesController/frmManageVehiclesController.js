@@ -41,6 +41,9 @@ define({
             },
             "btnEdit": {
               "text": "Edit Vehicle"
+            },
+            "lblEditVehicle": {
+              "text": "Edit Vehicle"
             }
           });
         }
