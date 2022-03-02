@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0%"
+        "value": "0.09%"
     },
     "_margin_": [
         6,
@@ -40,7 +40,7 @@
     "id": "btnEdit",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "af01ede55f4d4cc49b4117774134c56d",
     "name": "kony.ui.Button",
     "parent": "flbEdit",
