@@ -11,10 +11,6 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Portland"
             },
-            "lblEditVehicle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Edit Vehicle"
-            },
             "lblLicensePlateTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "License Plate:"
@@ -126,7 +122,6 @@
         "flxVehicleDetails": "flxVehicleDetails",
         "flxVehicleManagement": "flxVehicleManagement",
         "lblAddress": "lblAddress",
-        "lblEditVehicle": "lblEditVehicle",
         "lblLicensePlateTitle": "lblLicensePlateTitle",
         "lblLicensePlateValue": "lblLicensePlateValue",
         "lblVehicleNum": "lblVehicleNum"
