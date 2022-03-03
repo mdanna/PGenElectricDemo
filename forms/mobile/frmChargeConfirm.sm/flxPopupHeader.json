@@ -1,10 +1,8 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
-    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "10%"
+        "value": "15%"
     },
     "_left_": {
         "type": "string",
@@ -16,7 +14,7 @@
         0,
         0
     ],
-    "_orientation_": 1,
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
@@ -33,25 +31,30 @@
         "type": "string",
         "value": "100%"
     },
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
-    "containerweight": 0,
-    "data": {
-        "backForm": "frmMap",
-        "title": "GS INDIGO LLC STATION "
-    },
-    "id": "cmpSimpleHeader",
+    "children": [
+        "lblClose"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxPopupHeader",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b12cee12a7314259a986caaaabac3137",
-    "masterType": 1,
-    "name": "kony.ui.UserWidgetInstance",
-    "parent": "frmCharge",
-    "pf": "frmCharge",
+    "kuid": "ec91056ab5144aa3934cdae3c23967ce",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxPopup",
+    "pf": "frmChargeConfirm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "f6346ad97e3a4d36b0a0f6f8665b9cf9",
-    "wType": "UserWidgetInstance",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
     "zindex": 1
 }

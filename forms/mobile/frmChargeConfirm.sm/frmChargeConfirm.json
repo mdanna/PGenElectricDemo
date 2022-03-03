@@ -18,7 +18,7 @@
     "_pxMenuIndex": [
         0,
         1,
-        2
+        14
     ],
     "_skin_": "s2e838ef4b6d4ec49f736e220e2573d9",
     "_title_": null,
@@ -37,13 +37,19 @@
     "children": [
         "cmpSimpleHeader",
         "cmpSimpleHeaderDivider",
-        "flxContent"
+        "lblConfirmStation",
+        "lblChargingStation",
+        "imgChargingStation",
+        "FlexGroup0e2a8ed9f9de94d",
+        "lblInfo",
+        "flxPopupBackground",
+        "flxPopup"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "frmChargeController"
+            "name": "frmChargeConfirmController"
         }
     },
     "currentLocale": "default",
@@ -53,7 +59,7 @@
     "device": "iPhone11",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "frmCharge",
+    "id": "frmChargeConfirm",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -71,7 +77,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "j5f3a044a67a4d61bfefa334d54b1a81",
+                "kuid": "hd7ffbdeb7c2417db8e1e93703557e79",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -82,7 +88,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "eda0e63cbdf545099b4b53045e182296",
+                        "kuid": "f20c913b4c4b406d9e56ef6359ca32ec",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -99,7 +105,7 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "eea7d484913f4f8ea5a6304672e5e46e",
+    "kuid": "db0968bc6238430dbd9203e04deeff53",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,

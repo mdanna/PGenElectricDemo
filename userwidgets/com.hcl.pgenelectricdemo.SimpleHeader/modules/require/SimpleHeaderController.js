@@ -2,14 +2,19 @@ define(function() {
 
   return {
     constructor: function(baseConfig, layoutConfig, pspConfig) {},
-    
-    initGettersSetters: function() {},
+
+    initGettersSetters: function() {
+      defineGetter(this, 'backForm', () => {
+        return this._backForm;
+      });
+      defineSetter(this, 'backForm', value => {
+        this._backForm = value;
+      });
+    },
 
     onClickLeft() {
-        if(voltmx.application.getCurrentForm().id === "frmManageVehicles") {
-          return new voltmx.mvc.Navigation("frmMap").navigate();
-        }
-		new voltmx.mvc.Navigation(voltmx.application.getPreviousForm().id).navigate();
+      const backForm = this.backForm || (voltmx.application.getCurrentForm().id === "frmManageVehicles" ? "frmMap" : voltmx.application.getPreviousForm().id);
+      new voltmx.mvc.Navigation(backForm).navigate();
     }
   };
 });
