@@ -23,8 +23,8 @@ define({
       this.view.lblFind.onTouchEnd = () => this.closeMenu();
 
       this.view.lblClose.onTouchEnd = () => {
-          this.view.flxGrey.isVisible = false;
-          this.view.flxPopup.isVisible = false;
+        this.view.flxGrey.isVisible = false;
+        this.view.flxPopup.isVisible = false;
       };
 
       this.view.lblCharge.onTouchEnd = () => {
@@ -39,9 +39,18 @@ define({
         }
       };
 
-      
-      this.view.lblManage.onTouchEnd = () => new voltmx.mvc.Navigation('frmManageVehicles').navigate();
-      
+      this.view.lblBilling.onTouchEnd = () => {
+        this.view.flxMenu.left = '-90%';
+        this.view.flxGrey.isVisible = false;
+        new voltmx.mvc.Navigation('frmBillingHistory').navigate();
+      };
+
+      this.view.lblManage.onTouchEnd = () => {
+        this.view.flxMenu.left = '-90%';
+        this.view.flxGrey.isVisible = false;
+        new voltmx.mvc.Navigation('frmManageVehicles').navigate();
+      };
+
       this.view.lblLogout.onTouchEnd = () => {
         this.view.flxMenu.left = '-90%';
         this.view.flxGrey.isVisible = false;
