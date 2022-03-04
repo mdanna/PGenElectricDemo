@@ -48,7 +48,7 @@
     "id": "FlexScan",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "ibdaa2ac5aa940d18343d9cf65023ce0",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

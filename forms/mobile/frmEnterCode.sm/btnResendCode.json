@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -25,11 +25,11 @@
     "_text_": "Resend Code",
     "_top_": {
         "type": "string",
-        "value": "4%"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
-        "value": "120dp"
+        "value": "100%"
     },
     "canUpdateUI": true,
     "centerx": {
@@ -46,7 +46,7 @@
     "isvisible": true,
     "kuid": "e684f670d1574a4e9f2d45e3db1ce402",
     "name": "kony.ui.Button",
-    "parent": "frmEnterCode",
+    "parent": "flxResend",
     "pf": "frmEnterCode",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
