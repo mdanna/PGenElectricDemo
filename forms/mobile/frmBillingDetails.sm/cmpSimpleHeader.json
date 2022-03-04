@@ -1,8 +1,10 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
+    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "10%"
     },
     "_left_": {
         "type": "string",
@@ -14,7 +16,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -22,39 +24,34 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s8c1ef229fdd4e7dbac59b8a07ebea74",
+    "_skin_": "sfb526233b9e4db9b9054c127d005475",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "125dp"
+        "value": "100%"
     },
-    "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "lblRescan"
-    ],
-    "clipbounds": true,
-    "containerweight": 100,
-    "enablescrolling": true,
-    "id": "flxRescan",
+    "containerweight": 0,
+    "data": {
+        "backForm": "frmBillingHistory",
+        "title": "Billing Details"
+    },
+    "id": "cmpSimpleHeader",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e2457c3f98f245288082b7b1e50e302a",
-    "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "flxButtons",
-    "pf": "frmChargeConfirm",
+    "kuid": "ac7bd8fea9f24136a0110a9f7c918577",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmBillingDetails",
+    "pf": "frmBillingDetails",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
+    "sourceUserWidget": "f6346ad97e3a4d36b0a0f6f8665b9cf9",
+    "wType": "UserWidgetInstance",
     "zindex": 1
 }

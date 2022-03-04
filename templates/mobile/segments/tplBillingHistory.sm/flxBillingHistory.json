@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "110dp"
     },
     "_left_": {
         "type": "string",
@@ -22,39 +22,47 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s8c1ef229fdd4e7dbac59b8a07ebea74",
+    "_skin_": "sfb526233b9e4db9b9054c127d005475",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "125dp"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblRescan"
+        "flxLeft",
+        "flxRight"
     ],
     "clipbounds": true,
+    "containerId": true,
     "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "flxBillingHistoryController"
+        }
+    },
     "enablescrolling": true,
-    "id": "flxRescan",
+    "id": "flxBillingHistory",
     "info": null,
+    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e2457c3f98f245288082b7b1e50e302a",
-    "layouttype": 2,
+    "kuid": "f96935bf1a7644d08d763010f7414395",
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxButtons",
-    "pf": "frmChargeConfirm",
+    "parent": "tplBillingHistory",
+    "pf": "tplBillingHistory",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

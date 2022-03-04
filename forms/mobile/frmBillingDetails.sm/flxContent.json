@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "90%"
     },
     "_left_": {
         "type": "string",
@@ -22,39 +22,53 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s8c1ef229fdd4e7dbac59b8a07ebea74",
+    "_skin_": "sfb526233b9e4db9b9054c127d005475",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "81dp"
     },
     "_width_": {
         "type": "string",
-        "value": "125dp"
+        "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblRescan"
+        "LblDateTime",
+        "lblDateTimeInfo",
+        "lblAddress",
+        "lblAddress1",
+        "lblAddress2",
+        "lblAddress3",
+        "lblDetails",
+        "lblDetails1",
+        "lblDetails2",
+        "lblRates",
+        "flxLevel1",
+        "lblHours",
+        "lblHours1",
+        "lblDuration",
+        "lblDurationInfo",
+        "lblAmount",
+        "lblAmountInfo"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxRescan",
+    "id": "flxContent",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e2457c3f98f245288082b7b1e50e302a",
-    "layouttype": 2,
+    "kuid": "d04e4529e81a463985d303eea21e2989",
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxButtons",
-    "pf": "frmChargeConfirm",
+    "parent": "frmBillingDetails",
+    "pf": "frmBillingDetails",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

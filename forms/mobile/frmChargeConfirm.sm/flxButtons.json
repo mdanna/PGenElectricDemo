@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
@@ -22,32 +22,37 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s8c1ef229fdd4e7dbac59b8a07ebea74",
+    "_skin_": "sfb526233b9e4db9b9054c127d005475",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "575dp"
     },
     "_width_": {
         "type": "string",
-        "value": "125dp"
+        "value": "260dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "lblRescan"
+        "flxRescan",
+        "flxConfirm"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxRescan",
+    "id": "flxButtons",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e2457c3f98f245288082b7b1e50e302a",
-    "layouttype": 2,
+    "kuid": "c65d1e9ae92543cd8970b8b0395e529c",
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxButtons",
+    "parent": "frmChargeConfirm",
     "pf": "frmChargeConfirm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -55,6 +60,5 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

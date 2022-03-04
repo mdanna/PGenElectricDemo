@@ -1,0 +1,188 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "GS Indigo LLC Station"
+            },
+            "lblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$2.00"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "02/12/2022 5:45pm"
+            },
+            "lblLevel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Level 1"
+            },
+            "lblMinutes": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "60 minutes"
+            },
+            "lblPower": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "41 kW"
+            }
+        },
+        {
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "City 1 Parking"
+            },
+            "lblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10.22"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "02/11/2022 6:20pm"
+            },
+            "lblLevel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Level 1"
+            },
+            "lblMinutes": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4 hours 26 minutes"
+            },
+            "lblPower": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "43 kW"
+            }
+        },
+        {
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "City 4 Parking"
+            },
+            "lblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$9.47"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "02/9/2022 11:34am"
+            },
+            "lblLevel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Level 3"
+            },
+            "lblMinutes": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "3 hours 9 minutes"
+            },
+            "lblPower": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "63 kW"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "88%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "12%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "ab7849fe71fe47d2ba3841427f25eb99",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segBillingHistory",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cf64d9d8ec1a42199f8e1530bff486ef",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "frmBillingHistory",
+    "pf": "frmBillingHistory",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "f776d74bbf59402da7a882ed64c0205e",
+    "rowcounter": 2,
+    "rowfocusskin": "s61babb34fc5425d88edcb2f7b170102",
+    "rowskin": "s1232dc5e5374ddf9613725e20379288",
+    "rowtemplate": "Flex0afc609e906684d",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s13303f717dc45ab96ed15b1c6456311",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxBillingHistory": "flxBillingHistory",
+        "flxLeft": "flxLeft",
+        "flxRight": "flxRight",
+        "lblAddress": "lblAddress",
+        "lblAmount": "lblAmount",
+        "lblDateTime": "lblDateTime",
+        "lblLevel": "lblLevel",
+        "lblMinutes": "lblMinutes",
+        "lblPower": "lblPower"
+    },
+    "zindex": 1
+}

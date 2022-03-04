@@ -17,14 +17,15 @@ define({
       this.view.flxPopup.isVisible = false;
     };
 
-    this.view.flxPopupBackground.onClick = () => {
+    this.view.lblClose.onTouchEnd = () => {
       this.view.flxPopupBackground.isVisible = false;
       this.view.flxPopup.isVisible = false;
     };
     
-    this.view.lblClose.onTouchEnd = () => {
+    this.view.lblViewDetails.onTouchEnd = () => {
       this.view.flxPopupBackground.isVisible = false;
       this.view.flxPopup.isVisible = false;
+      new voltmx.mvc.Navigation('frmBillingDetails').navigate();
     };
 }
 });
