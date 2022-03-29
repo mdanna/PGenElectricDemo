@@ -1,0 +1,102 @@
+{
+    "classname": "RadioButtons",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c6cbb47acc6e41649c1481eb6a590ce7",
+                    "paramList": [],
+                    "propertyKey": "getSelection",
+                    "pw": {
+                        "displayName": "getSelection",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "bcd8d8117a16431994a58b6d15c9c2c8",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "100dp",
+                    "group": "General",
+                    "kuid": "b272e7601c5b4b15aa894450b632dc32",
+                    "originalPropertyKey": "buttonWidth",
+                    "propertyIndex": 1,
+                    "propertyKey": "buttonWidth",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "buttonWidth",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "bcd8d8117a16431994a58b6d15c9c2c8",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [
+                            {
+                                "value": "Pippo"
+                            },
+                            {
+                                "value": "Pluto"
+                            },
+                            {
+                                "value": "Paperino"
+                            }
+                        ],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "value",
+                                "columnHeaderType": "text",
+                                "columnID": "value",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "e876d24a76654739b13357ed7f743d19"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "eb3f5361907a4199825089e54f8d79bd",
+                    "originalPropertyKey": "buttons",
+                    "propertyIndex": 2,
+                    "propertyKey": "buttons",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "buttons",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "bcd8d8117a16431994a58b6d15c9c2c8",
+                    "type": "data grid",
+                    "value": 1
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.generalelectricdemo",
+    "version": "1.0.0"
+}

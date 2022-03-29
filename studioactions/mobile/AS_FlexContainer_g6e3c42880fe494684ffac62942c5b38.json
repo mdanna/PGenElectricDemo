@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_g6e3c42880fe494684ffac62942c5b38": {
+        "id": "AS_FlexContainer_g6e3c42880fe494684ffac62942c5b38",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmScanBarcode",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c69f4e75fa3c4c83a387edd720dcd49c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__d7484d964e2545a398dd12a5d66f2652",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmChargeConfirm",
+            "formKUID": "db0968bc6238430dbd9203e04deeff53",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

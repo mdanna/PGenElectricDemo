@@ -15,7 +15,12 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s2e838ef4b6d4ec49f736e220e2573d9",
+    "_pxMenuIndex": [
+        0,
+        1,
+        6
+    ],
+    "_skin_": "sc8815ded4fe4775bec673c49565e107",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -29,7 +34,9 @@
         "needAppMenu": false
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "flxLogin"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
@@ -37,9 +44,11 @@
             "name": "frmLoginController"
         }
     },
+    "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
+    "device": "iPhone11",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmLogin",
@@ -93,6 +102,9 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
+    "platform": "iphone",
+    "prevDevice": "iPhone11",
+    "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

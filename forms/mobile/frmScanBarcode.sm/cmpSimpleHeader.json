@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sfb526233b9e4db9b9054c127d005475",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "backForm": "frmCharge",
+        "iconSkin": "s932416b7fe6415bb39e1be3c18f60f8",
+        "title": "Scan Barcode",
+        "titleSkin": "sf31f4f323f14639a16c5d3be5b953a3"
+    },
+    "id": "cmpSimpleHeader",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c18cf197c2994460a3bba4dd7273496b",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmScanBarcode",
+    "pf": "frmScanBarcode",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "f6346ad97e3a4d36b0a0f6f8665b9cf9",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

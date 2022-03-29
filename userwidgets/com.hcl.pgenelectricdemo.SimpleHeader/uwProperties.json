@@ -1,0 +1,148 @@
+{
+    "classname": "SimpleHeader",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f49d5eb03c814116aa69458c7af4e4e2",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickLeft",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickLeft",
+                        "srcWidget": "flxIconLeft",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c3f47a8d57c84c8bb2030df71a79a16d",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "bf44c42a70c046a392c23d09053f0514",
+                    "originalPropertyKey": "backForm",
+                    "propertyIndex": 5,
+                    "propertyKey": "backForm",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "backForm",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f6346ad97e3a4d36b0a0f6f8665b9cf9",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bdc818a5b5a540a8be2c6350835140dc",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "icon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "icon",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblIcon",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "g49180ca4b2844b8b8c5566a97dc46c9"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c76c5a65a4c84847aae433ea10f348d2",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "title",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "title",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a916b717dae948bd8d030624ebff6d50"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e658af6bd7154a899392b7f6d0188396",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "iconSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "iconSkin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblIcon",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "g49180ca4b2844b8b8c5566a97dc46c9"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ac03ae8ac2ab4e638abe9d387fca69c0",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "titleSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "titleSkin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblTitle",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a916b717dae948bd8d030624ebff6d50"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.pgenelectricdemo",
+    "version": "1.0.0"
+}
